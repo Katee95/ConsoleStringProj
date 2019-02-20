@@ -31,7 +31,7 @@ echo $text . "\n" . $textSub . "\n\n";
 $text_ar = explode(' ', $text);
 array_shift($text_ar);
 
-/*echo "<ul>";
+echo "<ul>";
 
 foreach ($text_ar as $line) {
     echo "<li>$line</li>";
@@ -68,7 +68,7 @@ foreach ($count_ar as $key => $count) {
 }
 
 echo "</ul><br><br>";
-*/
+
 
 
 

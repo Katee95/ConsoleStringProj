@@ -1,6 +1,6 @@
 <?php
 
-$textLabel = "Newyou the quick brown fox jumps over the lazy dog";
+$textLabel = "yourapp the quick brown fox jumps over the lazy dog";
 
 if ($argc > 1) {
     $args = $argv;
@@ -15,12 +15,12 @@ else {
     if (!empty($inputConsole)){
         $text = trim(fgets($inputConsole));
         $textSub = substr($textLabel, 7);
-        $newText = " | Newyou";
+        $newText = " | yourapp";
         $textSub = $textSub . $newText;
     }
     else{
         $text = substr($textLabel, 7);
-        $newText = " | Newyou";
+        $newText = " | yourapp";
         $text = $text . $newText;
     }
 }

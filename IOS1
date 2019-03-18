@@ -1,0 +1,91 @@
+import UIKit
+
+//var str = "Hello, playground"
+
+// оператор присваивания
+//let a = 10
+//var b = 1
+//b = a
+
+// конкатенация
+"Katee ," + "programmer"
+
+// подсчет символов
+ let pet = "Собака, Кошка, Хомяк, Черепаха"
+print("pet содержит \(pet.count) символов")
+
+// строки
+
+var str = "Программирование IOS"
+var str2: String = "Программирование Андройд"
+
+var b = ""
+var a = String();
+
+b = "yes"
+
+print(a + " " + b)
+
+var number = 10
+
+print("number \(number)")
+
+var char: Character = "o"
+str.append(char)
+
+for t in "Hello Max".characters {
+    print(t)
+}
+
+var per = "sgfsun"
+//per.characters.count
+
+per.hasPrefix("s")
+per.hasSuffix("i")
+
+if per.isEmpty {
+    print("is empty")
+}else {
+    print("no empty")
+}
+
+let cArray = ["k", "a", "t"]
+cArray.count
+var arr = [String]()
+
+if arr.count == 0 {
+    print("пустенько")
+}
+arr += cArray
+
+arr += ["e", "e"]
+
+arr.append("riverside")
+
+arr[1]
+arr.insert("Me", at: 0)
+
+//let dic :[Int:String] = [0: "katee", 1: "no"]
+let dic1 = [0: "katee", 1: "no"]
+let dic2 = ["dog" : "taya", "cat" : "tom"]
+
+dic2["cat"]
+dic1[1]
+
+var dic = ["mous": "hhh", "cat": "meow"]
+dic.count
+dic.isEmpty
+//без аннотации типов
+let one = (1, "dog", 345, false)
+let (namber, dpet, decimalValue, boolValue) = one
+
+one
+dpet
+decimalValue
+boolValue
+
+let (_,_, c,_) = one
+
+c
+
+one.0
